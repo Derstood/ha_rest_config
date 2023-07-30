@@ -1,0 +1,8 @@
+# add this to configuration.yaml
+      
+rest_command:
+  trigger_ctrl_c_on_windows_rest:
+    url: 'http://192.168.31.58:12345/execute_ctrl_c'
+    method: 'POST'
+    headers:
+      Cache-Control: "no-cache"
